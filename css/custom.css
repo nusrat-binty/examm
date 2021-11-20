@@ -1,0 +1,93 @@
+
+.display {
+    color: white;
+    background-color: #00000080;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 0px 11px;
+    
+    padding right: 2;
+    margin-right: 17px;
+}
+.logo{
+
+}
+.nav-section{
+    position: relative ;
+}
+.nav-section::before{
+    content: "";
+    position: absolute;
+    width: 1200px;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    background: #7f7f7f40;
+    transform: translateX(-50%);
+
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #22b36f;
+    font-weight: 500 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(127 127 127);
+    font-weight: 500 ;
+}
+.banner-section{
+   background-image: url(../images/bannerbg.jpg);
+  height: 404px;
+}
+.banner-section p{
+
+    padding-top: 24px;
+    color: #7f7f7f;
+    font-weight: 400;
+
+}
+
+.banner-content button{
+
+}
+
+
+
+.feature-section{
+  margin-top: 250px;
+  background-color: #7f7f7f29;
+    padding: 50px;
+}
+.feature-section p{
+color: #7f7f7f;
+}
+.feature-section h2{
+	color: #7f7f7f;
+}
+.click-section{
+	 background-color:black;
+	 padding: 40px;
+}
+.click-section h3{
+color: white;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+
+.btn-custom {
+    background-color: #2dcc70;
+    color: white;
+    border-radius: 1px;
+    font-weight: 500;
+}
+.footer p{
+color: #7f7f7f;
+ font-weight: 500;
+ padding-top: 30px;
+}
+.footer a{
+
+    color: #7f7f7f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
